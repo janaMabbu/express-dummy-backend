@@ -24,7 +24,7 @@ devServer: {
     hot: true,
     inline: true,
     open: true,
-    host: 'dev.bestbuy.com',
+    host: 'localhost',
     port: 1337,
     proxy: {
       '/api': {
@@ -39,6 +39,6 @@ devServer: {
 all the network calls with '/api' key word will be routed to express backend project and you can mock any data for that end-point.
 
 ### Usage
-For Suppose, your Front-end application is making a network request  for "http://dev.bestbuy.com:1337/api/get-fruits", this is been proxied to "http://localhost:3000/get-fruits" which is been served by the @express-dummy-backend
-so to be clear any XHR Network call from webpack devserver with key word '/api', "http://dev.bestbuy.com:1337/api/some-thing", is been proxied to  "http://localhost:3000/some-thing",
+For Suppose, your Front-end application is making a network request  for "http://localhost:1337/api/get-fruits", this is been proxied to "http://localhost:3000/get-fruits" which is been served by the @express-dummy-backend
+so to be clear any XHR Network call from webpack devserver with key word '/api', "http://localhost:1337/api/some-thing", is been proxied to  "http://localhost:3000/some-thing",
 you can set up all the mock-routes for your Front-end application in express-dummy-backend project and serve the requests.
