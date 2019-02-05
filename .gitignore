@@ -1,0 +1,39 @@
+# plstack
+plstack
+plstack.log
+plstack.bat
+.plstack_userconfig
+*.nedb
+dist/
+connected-devices.iml
+# NPM
+npm-debug.log
+npm-cache
+node_modules/
+yarn-error.log
+package-lock.json
+
+# IDE files
+*.sublime-workspace
+*.sublime-project
+*.pom
+
+# build files
+/*.jar
+/*.war
+develop-*-SNAPSHOT.war
+develop-*-SNAPSHOT.jar
+artifactory.properties/
+preinstall_*/
+xunit.xml
+
+# other crud
+*.idea
+.sass-cache/
+.directory
+test/
+docs/
+.cleanup.js
+
+.DS_Store
+coverage/

@@ -1,0 +1,19 @@
+{
+  "name": "mock-rest-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "express-session": "1.14.2",
+    "lodash": "4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  },
+  "description": "Using this Application, you can mock any netwrok request point, it helps you with front-end development and trying to moack n",
+  "main": "app.js"
+}
