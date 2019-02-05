@@ -12,7 +12,7 @@ Start the application
 
 `npm start`
 
-After starting the application you can open the below URL in browser and male sure the App is up and running
+After starting the application you can open the below URL in browser and make sure the App is up and running
 http://localhost:3000/get-fruits
 
 Configuring this dummy project to make it work with front-end application.
